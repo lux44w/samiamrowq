@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+
+.card{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 90px;
+    left: 380px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); 
+    
+}
+
+
+.navbar {
+    background-color: #333; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+.navbar .menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    display: inline; 
+}
+
+.navbar .menu li a {
+    color: white; 
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar .menu li a:hover {
+    background-color: #555; 
+}
+
+
+
+
+
+@media only screen and (min-width: 701px) and (max-width:1400px ) {
+
+
+    body {
+        background-color: rgb(195, 195, 195);
+    }
+    
+    *{
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    
+    .card{
+        width: 1000px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 70px;
+        left: 190px;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); 
+        
+    }
+    
+    
+    .navbar {
+        background-color: #333; 
+        text-align: center; 
+        padding: 10px 0; 
+    }
+    
+    .navbar .menu {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar .menu li {
+        display: inline; 
+    }
+    
+    .navbar .menu li a {
+        color: white; 
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    
+    .navbar .menu li a:hover {
+        background-color: #555; 
+    }
+}

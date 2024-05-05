@@ -1,0 +1,435 @@
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+
+.card{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 90px;
+    left: 380px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); 
+    
+}
+
+
+.navbar {
+    background-color: #333; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+.navbar .menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    display: inline; 
+}
+
+.navbar .menu li a {
+    color: white; 
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar .menu li a:hover {
+    background-color: #555; 
+}
+
+.fotocard{
+    width: 300px;
+    height: 350px;
+    background-image: url(https://m.marefa.org/w/images/thumb/b/bc/Moscow_StBasilCathedral_d28.jpg/300px-Moscow_StBasilCathedral_d28.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+    .p1{
+        font-size: 0;
+    }
+
+
+.fotocard:hover{
+   .card_text{
+   
+        width: 400px;
+        height: 450px;
+        background-color: rgb(182, 182, 182);
+        margin-top: 40px;
+        box-shadow: 0 2px 15px rgb(0, 0, 0);
+        transition: 0.4s;
+        left: 50px;
+        top: 70px;
+        position: absolute;
+        z-index: 1000;
+      
+   }
+
+   .p1{
+    font-size: medium;
+    direction: rtl;
+}
+
+
+    .a1{
+    position: absolute;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border:2px solid #007bff ;
+    left: 20px;
+    }
+
+}
+
+.a1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 2px  #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  
+
+  .fotocard2{
+    width: 300px;
+    height: 350px;
+    background-image: url(https://modo3.com/thumbs/fit630x300/40113/1439384716/%D8%A3%D9%8A%D9%86_%D8%AA%D9%82%D8%B9_%D9%86%D9%8A%D9%88%D8%B2%D9%8A%D9%84%D9%86%D8%AF%D8%A7.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 450px;
+    top: 70px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+    .p2{
+        font-size: 0;
+    }
+
+
+.fotocard2:hover{
+   .card_text2{
+   
+        width: 400px;
+        height: 450px;
+        background-color: rgb(182, 182, 182);
+        margin-top: 40px;
+        box-shadow: 0 2px 15px rgb(0, 0, 0);
+        transition: 0.4s;
+        left: 50px;
+        top: 70px;
+        position: absolute;
+        z-index: 1000;
+      
+   }
+
+   .p2{
+    font-size: medium;
+    direction: rtl;
+}
+
+
+    .a2{
+    position: absolute;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border:2px solid #007bff ;
+    left: 20px;
+    }
+
+}
+
+.a2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 2px  #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+
+
+
+  
+  .fotocard3{
+    width: 300px;
+    height: 350px;
+    background-image: url(https://cdn.alweb.com/thumbs/travel/article/fit710x532/%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82-%D9%81%D9%8A-%D9%87%D9%88%D9%86%D8%AC-%D9%83%D9%88%D9%86%D8%AC-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%B3%D9%88%D9%81-%D8%AA%D8%AD%D9%81%D8%B2%D9%83-%D9%84%D9%84%D8%AA%D8%B3%D9%88%D9%82.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 850px;
+    top: 70px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+    .p3{
+        font-size: 0;
+    }
+
+
+.fotocard3:hover{
+   .card_text3{
+   
+        width: 400px;
+        height: 450px;
+        background-color: rgb(182, 182, 182);
+        margin-top: 40px;
+        box-shadow: 0 2px 15px rgb(0, 0, 0);
+        transition: 0.4s;
+        left: 50px;
+        top: 70px;
+        position: absolute;
+        z-index: 1000;
+      
+   }
+
+   .p3{
+    font-size: medium;
+    direction: rtl;
+}
+
+
+    .a3{
+    position: absolute;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border:2px solid #007bff ;
+    left: 20px;
+    }
+
+}
+
+.a3 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 2px  #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+
+
+  .next {
+    background-color: #007bff;
+    border: none;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 35px;
+    bottom: 80px;
+    }
+      
+      .next:hover {
+        background-color: #0056b3;   
+    }
+
+    hr{
+        width: 99.8%;
+        height: 50px;
+        background-color: #c1c1c1;
+        position: absolute;
+        bottom: 170px;
+    }
+
+
+
+@media only screen and (min-width: 701px) and (max-width:1400px ) {
+
+
+    body {
+        background-color: rgb(195, 195, 195);
+    }
+    
+    *{
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    
+    .card{
+        width: 1000px;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 70px;
+        left: 190px;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); 
+        
+    }
+    
+    
+    .navbar {
+        background-color: #333; 
+        text-align: center; 
+        padding: 10px 0; 
+    }
+    
+    .navbar .menu {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar .menu li {
+        display: inline; 
+    }
+    
+    .navbar .menu li a {
+        color: white; 
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    
+    .navbar .menu li a:hover {
+        background-color: #555; 
+    }
+
+
+    .p1{
+        font-size: 0;
+    }
+
+
+
+    .fotocard:hover{
+        .card_text{
+        
+             width: 300px;
+             height: 350px;
+             background-color: rgb(182, 182, 182);
+             margin-top: 40px;
+             box-shadow: 0 2px 15px rgb(0, 0, 0);
+             transition: 0.4s;
+             left: 50px;
+             top: 70px;
+             position: absolute;
+             
+        }
+
+        .p1{
+            font-size: small;
+            direction: rtl;
+        }
+     }
+     
+
+    
+     .p2{
+        font-size: 0;
+    }
+
+
+
+    .fotocard2:hover{
+        .card_text2{
+        
+             width: 300px;
+             height: 350px;
+             background-color: rgb(182, 182, 182);
+             margin-top: 40px;
+             box-shadow: 0 2px 15px rgb(0, 0, 0);
+             transition: 0.4s;
+             left: 50px;
+             top: 70px;
+             position: absolute;
+             
+        }
+
+        .p2{
+            font-size: small;
+            direction: rtl;
+        }
+     }
+     
+
+
+     .fotocard3{
+        width: 0px;
+        height: 0px;
+        background-image: url(https://www.goldenhorses-travel.com/wp-content/uploads/2019/03/%D8%B1%D9%88%D9%85%D8%A7-%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A%D8%A7.jpg);
+        position: absolute;
+        left: 850px;
+        top: 70px;
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+        transition: 1s;
+    }
+
+
+
+    .next {
+    background-color: #007bff; /* لون الخلفية - أزرق فاتح */
+    border: none;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+    }
+      
+      .next:hover {
+        background-color: #0056b3;   
+    }
+      
+
+hr{
+    width: 0;
+    height: 0;
+}
+
+}
